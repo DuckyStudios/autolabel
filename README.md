@@ -1,12 +1,13 @@
 # GH App Labels and Badges
 
 ## Overview
+
 Automatically label your Pull Requests based on various criteria to streamline your workflow and make it easier to manage and track changes. You can configure the labels, sizing criteria, and other behaviors to suit your project's needs.
 
 ## Sizing Labels
 
 | Label           | Description                                         |
-|-----------------|-----------------------------------------------------|
+| --------------- | --------------------------------------------------- |
 | **PR:size/XS**  | Added when additions or deletions are less than 10. |
 | **PR:size/S**   | Added when additions or deletions are 10-30.        |
 | **PR:size/M**   | Added when additions or deletions are 30-100.       |
@@ -17,7 +18,7 @@ Automatically label your Pull Requests based on various criteria to streamline y
 ## Other Labels
 
 | Label                    | Description                                                               |
-|--------------------------|---------------------------------------------------------------------------|
+| ------------------------ | ------------------------------------------------------------------------- |
 | **release**              | Applied when the Pull Request is raised to the main branch.               |
 | **feature**              | Applied when the branch name starts with "feat."                          |
 | **bug**                  | Applied when the branch name starts with "fix" or "bug."                  |
@@ -28,10 +29,13 @@ Automatically label your Pull Requests based on various criteria to streamline y
 | **PR:APPROVED**          | Applied when a PR is approved.                                            |
 
 ## Change Notes
+
 Whenever a PR is raised or updated, a comment with all the changes, including JIRA hyperlinks, is automatically added as release notes. You have the option to disable this feature via configuration.
 
 ## Configuration
+
 ### Default Configuration
+
 To configure the behavior of the application, create a `.github/labels-and-badges.yml` file with the following YAML structure:
 
 ```yaml
@@ -79,10 +83,10 @@ If you have suggestions for how gh-app-labels-and-badges could be improved, or w
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
-
 > A GitHub App built with [Probot](https://github.com/probot/probot)
 
 # ROADMAP
+
 - [ ] Setup CI/CD
 - [ ] Setup Linters and git hooks
-- [ ] 
+- [ ]
