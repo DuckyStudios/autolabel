@@ -1,4 +1,6 @@
-# GH App Labels and Badges
+# Autolabeler of Pull Requests
+
+Originally forked from [sreeteja06/gh-app-labels-and-badges](https://github.com/sreeteja06/gh-app-labels-and-badges).
 
 ## Overview
 
